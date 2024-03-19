@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  overflow: hidden;
+}
+#root, body{
+  height: 100vh;
+  overflow: scroll;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+@media screen and (max-width:500px) {
+ 
+
+  .bannerImg img {
+    height: 200px !important;
+    min-width: none !important;
+    margin: auto;
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+}
+
+.ul {
+    color: white;
+    min-width: 200px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul>h6 {
+    font-size: .9rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.ul>p {
+    font-size: .8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.ul>p:hover {
+    text-decoration: underline;
+}
