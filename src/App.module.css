@@ -124,7 +124,29 @@
 .ul>li:hover {
     background-color: rgb(224, 224, 255);
 }
+.section{
+    display: flex;
+    overflow-x: auto;
+}
+.section>div{
+    min-width: 200px;
+    border: 1px solid gray;
+    padding:10px ;
+    border-radius: 5px;
+    margin-bottom: 10px;
 
+}
+.section img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+.section p{
+    text-align: center;
+}
+.section p:nth-child(3){
+    font-weight: 600;
+}
 @media (max-width:800px) {
     .options {
         position: fixed;
